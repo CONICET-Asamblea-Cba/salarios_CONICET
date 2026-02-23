@@ -276,7 +276,7 @@ ax.legend([handles[i] for i in order], [labels[i] for i in order],
 footnote = (
     f"IPC proyectado según REM-BCRA (enero 2026), extrapolación lineal para ago-dic.\n"
     f"Propuesta LLA: IPC mensual + tres aumentos de 4,1% (sobre dic-2025) en mar, jul y sep 2026.\n"
-    f"Gráfico generado el {current_date}."
+    f"Gráfico generado el {current_date}. Datos y código: https://github.com/rquiroga7/salarios_CONICET"
 )
 plt.figtext(0.5, 0.01, footnote, ha="center", fontsize=12, style="italic")
 
